@@ -32,3 +32,13 @@ p {
 textarea {
   display: none;
 }
+select {
+  width: 300px;
+}
+#copy {
+  position: absolute;
+  left: 350px;
+}
+#copyButton {
+  width: 150px;
+}

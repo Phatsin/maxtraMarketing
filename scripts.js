@@ -1,10 +1,19 @@
 function menuToggle(id) {
-  var y = document.getElementsByClassName("sub-menu");
-  for(var i=0; i<y.length; i++){
-      y[i].style.display="none";
+  var x = document.getElementsByClassName("sub-menu");
+  for(var i=0; i<x.length; i++){
+      x[i].style.display="none";
+      x[i].children[0].value="contact";
   }
-  var x = document.getElementById(id);
-  x.style.display="block";
+  var xx = document.getElementById(id);
+  xx.style.display="block";
+
+  var y = document.getElementsByClassName("menuButton");
+  for(var i=0; i<y.length; i++){
+    y[i].style.background="";
+  }
+  var yy = document.getElementById(id+"-button");
+  yy.style.background="green";
+
 } 
 
 var data= {
@@ -43,14 +52,15 @@ var data= {
     image: "images/promotion2.jpg"    
   },
 }
-function showContent(option) {
-  select=document.getElementById(option).value;
+function showContent(select) {
   if(data[select]===undefined){
     document.getElementById("text").innerText="ไม่มีข้อมูล";
-    document.getElementById("image").src=data.contact.image;  
+    document.getElementById("image").src=data.contact.image;
+    document.getElementById("textarea").value=document.getElementById("text").innerText;
   }else{
     document.getElementById("text").innerText=data[select].text;
-    document.getElementById("image").src=data[select].image;  
+    document.getElementById("image").src=data[select].image;
+    document.getElementById("textarea").value=document.getElementById("text").innerText;
   }
 }
 function copyText() {
@@ -59,7 +69,10 @@ function copyText() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
-  document.getElementById("copyed").innerText=new Date().toLocaleTimeString()+" คัดลอกข้อความ";
+  document.getElementById("copyButton").innerText="คัดลอกข้อความแล้ว";
+  sleep(1500).then(() => {
+    document.getElementById("copyButton").innerText="คัดลอกข้อความ";
+  });
 }
 function copyImage() {
   try {
@@ -71,4 +84,7 @@ function copyImage() {
   } catch (e) {
       console.error(e);
   }
+}
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
 }
