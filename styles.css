@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   width: 500px;
+  margin: 0px;
 }
 h1 {
   color: white;
@@ -14,32 +15,32 @@ p {
   min-height: 50px;
 }
 .head-menu {
-  width: 500px;
+  width: 400px;
 }
 .head-menu button {
-  width: 78px;
+  width: 75px;
 }
 .sub-menu {
   display: none;
-  width: 500px;
+  width: 400px;
 }
 .content {
   background-color: Bisque;
-  width: 500px;
+  width: 400px;
 }
 .content img {
-  width: 500px;
+  width: 400px;
 }
 textarea {
   display: none;
 }
 select {
-  width: 300px;
+  width: 280px;
 }
 #copy {
   position: absolute;
-  left: 350px;
+  left: 290px;
 }
 #copyButton {
-  width: 150px;
+  width: 110px;
 }
