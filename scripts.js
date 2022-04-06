@@ -1,21 +1,3 @@
-function menuToggle(id) {
-  var x = document.getElementsByClassName("sub-menu");
-  for(var i=0; i<x.length; i++){
-      x[i].style.display="none";
-      x[i].children[0].value="contact";
-  }
-  var xx = document.getElementById(id);
-  xx.style.display="block";
-
-  var y = document.getElementsByClassName("menuButton");
-  for(var i=0; i<y.length; i++){
-    y[i].style.background="";
-  }
-  var yy = document.getElementById(id+"-button");
-  yy.style.background="green";
-
-} 
-
 var data= {
   contact: {
     title: "ช่องทางการติดต่อ",
@@ -51,7 +33,40 @@ var data= {
     เครดิตโบนัสจะถูกยกเลิกตามสัดส่วนในการถอน\n\
     เครดิตโบนัสจะถูกยกเลิกในกรณี Equity อยู่ในระดับที่โดน Stop out"
   },
+  service1: {
+    title: "ห้องซิกแนล",
+    image: "images/contact.jpg",
+    text: "1.ห้อง VIP Signal\n\
+    กลยุทธ์ : แนวรับแนวต้าน\n\
+    ปริมาณความถี่ของสัญญาณต่อวัน : สูง\n\
+    ความแม่นยำ : 70-85%\n\
+    สัญญาณจากสินค้าประเภท : สกุลเงินและทองคำ\n\
+    เงื่อนไขการฝากเงินขั้นต่ำเพื่อเข้าห้อง : 1000$\n\
+    2.ห้อง Moo Moo Signal\n\
+    กลยุทธ์: แนวรับแนวต้าน\n\
+    ปริมาณความถี่ของสัญญาณต่อวัน: วันละ 1-2 ครั้ง\n\
+    ความแม่นยำ: 65-80\n\
+    สัญญาณจากสินค้าประเภท: สกุลเงินและทองคำ\n\
+    เงื่อนไขการฝากเงินขั้นต่ำเพื่อเข้าห้อง: 100$"
+  },
 }
+function menuToggle(id) {
+  var x = document.getElementsByClassName("sub-menu");
+  for(var i=0; i<x.length; i++){
+      x[i].style.display="none";
+      x[i].children[0].value="contact";
+  }
+  var xx = document.getElementById(id);
+  xx.style.display="block";
+
+  var y = document.getElementsByClassName("menuButton");
+  for(var i=0; i<y.length; i++){
+    y[i].style.background="";
+  }
+  var yy = document.getElementById(id+"-button");
+  yy.style.background="green";
+
+} 
 function showContent(select) {
   if(data[select]===undefined){
     document.getElementById("text").innerText="ไม่มีข้อมูล";
