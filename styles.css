@@ -13,23 +13,16 @@ p {
   height: 50px;
 }
 .head-menu {
-  background-color: HoneyDew;
+
   width: 500px;
-  cursor: pointer;
+
 }
-.head-menu span {
-  display: inline-block;
-  padding-left: 20px;
+.head-menu button {
+  width: 100px;
 }
 .sub-menu {
-  background-color: HoneyDew;
-  width: 500px;
   display: none;
-}
-.sub-menu span {
-  display: inline-block;
-  padding-left: 20px;
-  cursor: pointer;
+  width: 500px;
 }
 .content {
   background-color: Bisque;

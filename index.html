@@ -7,10 +7,10 @@
 <body>
   <div class="menu">
     <div class = "head-menu">
-      <span onclick="menuToggle('sub-1')">ต้อนรับ</span>
-      <span onclick="menuToggle('sub-2')">บริการ</span>
-      <span onclick="menuToggle('sub-3')">โปรโมชั่น</span>
-      <span onclick="menuToggle('sub-4')">ขอบคุณ</span>
+      <button onclick="menuToggle('sub-1')">ต้อนรับ</button>
+      <button onclick="menuToggle('sub-2')">บริการ</button>
+      <button onclick="menuToggle('sub-3')">โปรโมชั่น</button>
+      <button onclick="menuToggle('sub-4')">ขอบคุณ</button>
     </div>
     <div class="sub-menu" id="sub-1">
       <select id="sub-1-option">
@@ -20,6 +20,7 @@
         <option value="test">ทดสอบ</option>
       </select>
       <button type="button" onclick = "showContent('sub-1-option')">ดูข้อมูล</button>
+      <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
     </div>
     <div class="sub-menu" id="sub-2">
       <select id="sub-2-option">
@@ -29,6 +30,7 @@
         <option value="test">ทดสอบ</option>
       </select>
       <button type="button" onclick="showContent('sub-2-option')">ดูข้อมูล</button>
+      <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
     </div>
     <div class="sub-menu" id="sub-3">
       <select id="sub-3-option">
@@ -38,6 +40,7 @@
         <option value="test">ทดสอบ</option>
       </select>
       <button type="button" onclick="showContent('sub-3-option')">ดูข้อมูล</button>
+      <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
     </div>
     <div class="sub-menu" id="sub-4">
       <select id="sub-4-option">
@@ -47,13 +50,14 @@
         <option value="test">ทดสอบ</option>
       </select>
       <button type="button" onclick="showContent('sub-4-option')">ดูข้อมูล</button>
+      <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
     </div>    
   </div>
-  <div>
+  <!--<div>
     <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
-    <!--<button type="button" onclick="copyImage()">คัดลอกรูปภาพ</button>-->
+    <button type="button" onclick="copyImage()">คัดลอกรูปภาพ</button>
     <span id="copyed"></span>
-  </div>
+  </div>-->
   <div class = "content">
     <textarea id="textarea" rows="4" cols="50">ช่องทางการติดต่อ</textarea>
     <div id="text">ช่องทางการติดต่อ</div>
