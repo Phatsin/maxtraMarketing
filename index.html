@@ -1,31 +1,66 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-<!--   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
- -->
+  <link rel="stylesheet" href="styles.css?v=1.0">
 </head>
-
 <body>
-  <div>Test</div>
-  <!--<script src="js/scripts.js"></script>-->
+  <div class="menu">
+    <div class = "head-menu">
+      <span onclick="menuToggle('sub-1')">ต้อนรับ</span>
+      <span onclick="menuToggle('sub-2')">บริการ</span>
+      <span onclick="menuToggle('sub-3')">โปรโมชั่น</span>
+      <span onclick="menuToggle('sub-4')">ขอบคุณ</span>
+    </div>
+    <div class="sub-menu" id="sub-1">
+      <select id="sub-1-option">
+        <option value="contact">ช่องทางการติดต่อ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+      </select>
+      <button type="button" onclick = "showContent('sub-1-option')">ดูข้อมูล</button>
+    </div>
+    <div class="sub-menu" id="sub-2">
+      <select id="sub-2-option">
+        <option value="services1">บริการ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+      </select>
+      <button type="button" onclick="showContent('sub-2-option')">ดูข้อมูล</button>
+    </div>
+    <div class="sub-menu" id="sub-3">
+      <select id="sub-3-option">
+        <option value="promotion1">ฝาก $50 รับเครดิตโบนัส $100</option>
+        <option value="promotion2">เครดิตโบนัส 50%</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+      </select>
+      <button type="button" onclick="showContent('sub-3-option')">ดูข้อมูล</button>
+    </div>
+    <div class="sub-menu" id="sub-4">
+      <select id="sub-4-option">
+        <option value="thank1">ขอบคุณ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+        <option value="test">ทดสอบ</option>
+      </select>
+      <button type="button" onclick="showContent('sub-4-option')">ดูข้อมูล</button>
+    </div>    
+  </div>
+  <div>
+    <button type="button" onclick="copyText()">คัดลอกข้อความ</button>
+    <!--<button type="button" onclick="copyImage()">คัดลอกรูปภาพ</button>-->
+    <span id="copyed"></span>
+  </div>
+  <div class = "content">
+    <textarea id="textarea" rows="4" cols="50">ช่องทางการติดต่อ</textarea>
+    <div id="text">ช่องทางการติดต่อ</div>
+    <div>
+      <img src="images/contact.jpg" id="image">
+    </div>
+  </div>
+  <script src="scripts.js"></script>
 </body>
 </html>

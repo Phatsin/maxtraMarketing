@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.menu {
+  height: 50px;
+}
+.head-menu {
+  background-color: HoneyDew;
+  width: 500px;
+  cursor: pointer;
+}
+.head-menu span {
+  display: inline-block;
+  padding-left: 20px;
+}
+.sub-menu {
+  background-color: HoneyDew;
+  width: 500px;
+  display: none;
+}
+.sub-menu span {
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.content {
+  background-color: Bisque;
+  width: 500px;
+}
+.content img {
+  width: 500px;
+}
+textarea {
+  display: none;
+}
