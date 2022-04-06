@@ -18,12 +18,13 @@ function menuToggle(id) {
 
 var data= {
   contact: {
-    title: "",
+    title: "ช่องทางการติดต่อ",
     text: "ช่องทางการติดต่อ",
     image: "images/contact.jpg"    
   },
   promotion1: {
     title: "ฝาก $50 รับเครดิตโบนัส $100",
+    image: "images/promotion1.jpg",  
     text: "Promotion $100 กับ Maxtra Rich Forex\n\
     * เปิดบัญชีและทำการฝากเงิน $50\n\
     * ระยะเวลาการใช้โบนัส 60 วัน นับตั้งแต่วันที่ได้รับโบนัส\n\
@@ -35,11 +36,11 @@ var data= {
     หากยังไม่ได้รับ Bonus 100$ สามารถติดต่อเจ้าหน้าที่ได้ทุกช่องทาง\n\
     ข้อเสนอนี้จำกัด 1 บัญชี ต่อลูกค้า 1 คน ต่อ 1 IP Addressเท่านั้น\n\
     โบนัสจะถูกยกเลิกอัตโนมัติ ในกรณี Equity อยู่ในระดับที่โดน Stop out\n\
-    Linkสมัคร : https://maxtrarich.com/",
-    image: "images/promotion1.jpg"    
+    Linkสมัคร : https://maxtrarich.com/"
   },
   promotion2: {
     title: "รับเครดิตโบนัส 50% สูงสุด $500",
+    image: "images/promotion2.jpg",
     text: "ข้อมูลโบนัส 50%\n\
     เครดิตสูงสุดที่ให้ในข้อเสนอนี้คือ 500 USD\n\
     Leverage 1:500\n\
@@ -48,8 +49,7 @@ var data= {
     ไม่มีกำหนดระยะเวลาในการใช้โบนัส\n\
     ข้อเสนอนี้จำกัด 1 บัญชี ต่อลูกค้า 1 คน ต่อ 1 IP Addressเท่านั้นจะได้รับเครดิตโบนัสทุกครั้งเมื่อมีรายการฝาก\n\
     เครดิตโบนัสจะถูกยกเลิกตามสัดส่วนในการถอน\n\
-    เครดิตโบนัสจะถูกยกเลิกในกรณี Equity อยู่ในระดับที่โดน Stop out",
-    image: "images/promotion2.jpg"    
+    เครดิตโบนัสจะถูกยกเลิกในกรณี Equity อยู่ในระดับที่โดน Stop out"
   },
 }
 function showContent(select) {

@@ -9,14 +9,11 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-.menu {
-  height: 50px;
-}
 .head-menu {
   width: 500px;
 }
 .head-menu button {
-  width: 100px;
+  width: 80px;
 }
 .sub-menu {
   display: none;
