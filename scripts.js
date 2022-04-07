@@ -149,7 +149,8 @@ https://www.mql5.com/en/signals/1198995"
   activity1: {
     title: "เมษา มหาสนุก",
     image: "images/contact.jpg",
-    text: "เทรดครบ 44 Lots \n\
+    text: "กิจกรรม เมษา มหาสนุก\n\
+    เทรดครบ 44 Lots \n\
     แจกของรางวัลมูลค่า 2000-3000 บาท\n\
     เทรดครบ 88 Lots \n\
     แจกของรางวัลมูลค่า 5000-7000 บาท\n\
