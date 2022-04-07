@@ -1,26 +1,32 @@
 var data= {
   welcome1: {
     title: "ช่องทางการติดต่อ",
-    text: "ช่องทางการติดต่อ",
+    text: "ช่องทาง facebook https://www.facebook.com/maxtrarich\n\
+    ช่องทาง LINE https://lin.ee/3XCC1nT",
     image: "images/contact.jpg"    
   },
   welcome2: {
+    title: "ขอข้อมูลลูกค้า",
+    text: "แอดมินรบกวนขอข้อมูลชื่อและเบอร์โทรของคุณลูกค้า เพื่อแจ้งโปรโมชั่นค่ะ",
+    image: "images/contact.jpg"    
+  },
+  welcome3: {
     title: "เปิดบัญชี",
     text: "เริ่มต้นการเทรดกับ MaxtraRich Forex สามารถคลิ๊กสมัครจากลิ้งก์  https://maxtrarich.com/ และดูวิธีการสมัครจากไฟล์คู่มือที่ส่งแนบมานี้ได้เลยค่ะ  https://drive.google.com/file/d/1bAYQ8oWp2P6LOunj0kyNd9aWnMbYOoI-/view ",
     image: "images/contact.jpg"    
   },
-  welcome3: {
+  welcome4: {
     title: "ยืนยันตัวตน",
     text: "ลูกค้าสามารถลงชื่อเข้าใช้งานเพื่อยืนยันตัวตนตามขั้นตอนได้เลยนะคะ\n\
     วิธีการยืนยันตัวตน : https://drive.google.com/file/d/1-jHa6yNMkIDUU9Pmk7OVxT3AS6m-k3fJ/view?usp=sharing",
     image: "images/contact.jpg"    
   },
-  welcome4: {
+  welcome5: {
     title: "เอกสารยืนยันตัวตน",
     text: "เอกสารที่ลูกค้าสามารถใช้ยืนยันที่อยู่ได้ ดังนี้ บิลค่าไฟ บิลค่าน้ำ บิลค่าโทรศัพท์ บิลค่าอินเตอร์เน็ต ใบกำกับภาษี รายการเดินบัญชีธนาคารที่มีระบุข้อมูล ชื่อและที่อยู่ของลูกค้าชัดเจน หรือสำเนาทะเบียนบ้าน ทั้งหน้าข้อมูลที่อยู่ และหน้าที่มีชื่อของลูกค้าก็ได้เช่นกันค่ะ หากติดตรงขั้นตอนไหนสอบถามมาทางแอดมินได้เลยนะคะ",
     image: "images/contact.jpg"    
   },
-  welcome5: {
+  welcome6: {
     title: "ประเภทบัญชี",
     text: "1. Standard บัญชีมาตรฐาน พร้อมเงื่อนไขที่ดีที่สุด\n\
     - ฝากขั้นต่ำ 5 USD \n\
@@ -39,6 +45,15 @@ var data= {
     image: "images/contact.jpg"    
   },
   promotion1: {
+    title: "โปรโมชั่นทั้งหมด",
+    image: "images/contact.jpg",  
+    text: "โปรโมชั่นของเราที่มีทั้งหมดตอนนี้คือ\n\
+    โปรโมชั่น เติมเงิน $50 รับเครดิตโบนัส $100\n\
+    โปรโมชั่น เติมเงิน รับเครดิตโบนัส 50%\n\
+    โปรโมชั่นชวนเพื่อนฝากเงินรับเครดิตโบนัส $250\n\
+    และโปรโมชั่นชวนเพื่อนฝากเงินรับเครดิตโบนัส 10% ค่ะ"
+  },
+  promotion2: {
     title: "ฝาก $50 รับเครดิตโบนัส $100",
     image: "images/promotion1.jpg",  
     text: "Promotion $100 กับ Maxtra Rich Forex\n\
@@ -54,7 +69,7 @@ var data= {
     โบนัสจะถูกยกเลิกอัตโนมัติ ในกรณี Equity อยู่ในระดับที่โดน Stop out\n\
     Linkสมัคร : https://maxtrarich.com/"
   },
-  promotion2: {
+  promotion3: {
     title: "รับเครดิตโบนัส 50% สูงสุด $500",
     image: "images/promotion2.jpg",
     text: "ข้อมูลโบนัส 50%\n\
@@ -67,7 +82,7 @@ var data= {
     เครดิตโบนัสจะถูกยกเลิกตามสัดส่วนในการถอน\n\
     เครดิตโบนัสจะถูกยกเลิกในกรณี Equity อยู่ในระดับที่โดน Stop out"
   },
-  promotion3: {
+  promotion4: {
     title: "ชวนเพื่อน $1,000",
     image: "images/contact.jpg",
     text: "- เปิดบัญชีเพื่อฝากเงิน $1,000 รับเครดิตโบนัส $250 ต่อ 1 บัญชีเทรด\n\
@@ -76,7 +91,7 @@ var data= {
     - การถอนโดยผิดเงื่อนไขถือเป็นการกระทำผิดกติกา บัญชีเครดิตโบนัสจะถูกยกเลิก\n\
     - หากทำการเทรดครบตามข้อกำหนดแล้ว ต้องการดำเนินการถอนเงิน กรุณาติดต่อเจ้าหน้าที่เพื่อทำการตรวจสอบ"
   },
-  promotion4: {
+  promotion5: {
     title: "ชวนเพื่อน 10%",
     image: "images/contact.jpg",
     text: "- รับเครดิตโบนัส 10% สูงสุด $100 สำหรับการฝากครั้งแรก\n\
