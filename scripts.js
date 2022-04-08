@@ -93,7 +93,7 @@ var data= {
   },
   promotion5: {
     title: "ชวนเพื่อน 10%",
-    image: "images/contact.jpg",
+    image: "images/promotion5.jpg",
     text: "- รับเครดิตโบนัส 10% สูงสุด $100 สำหรับการฝากครั้งแรก\n\
     - สามารถถอนกำไรได้เมื่อเทรดครบ 100 Transactions (Standard) และ 10 Lots (Standard)\n\
     - เครดิตโบนัสจะถูกยกเลิกอัตโนมัติ ในกรณี Equity อยู่ในระดับที่โดน Stop out และเมื่อมีการการถอนเงิน\n\
@@ -184,6 +184,11 @@ https://www.mql5.com/en/signals/1198995"
     title: "Hedging",
     image: "images/contact.jpg",
     text: "Hedging คือการที่ ในช่วงเวลาหนึ่งมีทั้งออเดอร์ Buy และ ออเดอร์ Sell ในสินค้าเดียวกันค่ะ"
+  },
+  other2: {
+    title: "Spread",
+    image: "images/spread.jpg",
+    text: ""
   },
 }
 function menuToggle(id) {
