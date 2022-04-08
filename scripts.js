@@ -146,6 +146,19 @@ Win rate 65%\n\
 https://www.myfxbook.com/members/phatsin/phatsin-maxtrarich-goldv1/9434109 และ \n\
 https://www.mql5.com/en/signals/1198995"
   },
+  service4: {
+    title: "ib",
+    image: "images/contact.jpg",
+    text: "การสนับสนุนการเป็น Partner จากเรา\n\
+    - ค่าคอมสูงสุด 10$/Lot\n\
+    - จัดสัมมนาให้\n\
+    - Point แลกของรางวัล\n\
+    - แจกโบนัส ตามยอดเทรดสูงสุด\n\
+    - การวางแผนการตลาด\n\
+    - ไม่จำกัดค่าคอมมิชชั่น ไม่มีค่าธรรมเนียมการเป็นสมาชิก\n\
+    - Support Partner Team 24/7 \n\
+    - Course เตรียมตัวสำหรับการเป็น Partner ฟรี!"
+  },  
   activity1: {
     title: "เมษา มหาสนุก",
     image: "images/contact.jpg",
