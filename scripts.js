@@ -180,6 +180,11 @@ https://www.mql5.com/en/signals/1198995"
          \n\
     *** ไม่สามารถทำการเทรด Hedging/Square "
   },
+  other1: {
+    title: "Hedging",
+    image: "images/contact.jpg",
+    text: "Hedging คือการที่ ในช่วงเวลาหนึ่งมีทั้งออเดอร์ Buy และ ออเดอร์ Sell ในสินค้าเดียวกันค่ะ"
+  },
 }
 function menuToggle(id) {
   var x = document.getElementsByClassName("sub-menu");
