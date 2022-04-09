@@ -104,7 +104,7 @@ var data= {
   service1: {
     title: "บริการที่มี",
     image: "images/service1.jpg",
-    text: "คุณลูกค้าสนใจสมัครบริการใดดีคะ \n\
+    text: "คุณลูกค้าสนใจสอบถามบริการใดดีคะ \n\
     -ห้อง Signal \n\
     -คลาสเรียนเทรด \n\
     -ระบบเทรดอัตโนมัติ \n\
@@ -143,8 +143,9 @@ Win rate 65%\n\
     1. ลูกค้าสามารถเลือกใช้บริการ VPS จาก MaxtraRich หรือใช้ VPS ของลูกค้าเองได้ตามต้องการ\n\
     2. บริการติดตั้ง และให้คำปรึกษา EA จากทีม MaxtraRich\n\
 สถิติของ EA \n\
-https://www.myfxbook.com/members/phatsin/phatsin-maxtrarich-goldv1/9434109 และ \n\
-https://www.mql5.com/en/signals/1198995"
+https://www.myfxbook.com/members/phatsin/phatsin-maxtrarich-goldv1/9434109 , \n\
+https://www.mql5.com/en/signals/1198995 ,\n\
+https://www.mql5.com/en/signals/1476424"
   },
   service4: {
     title: "ib",
