@@ -7,7 +7,7 @@ var data= {
   },
   welcome2: {
     title: "ขอข้อมูลลูกค้า",
-    text: "แอดมินรบกวนขอทราบชื่อ เบอร์โทรศัพท์ และเวลาที่สะดวกเพื่อให้เจ้าหน้าที่ติดต่อให้ข้อมูลเพิ่มเติมนะคะ",
+    text: "แอดมินรบกวนขอทราบชื่อ เบอร์โทรติดต่อ และเวลาที่สะดวก (10.00-18.00 น.) เพื่อให้เจ้าหน้าที่ติดต่อให้ข้อมูลเพิ่มเติมนะคะ",
     image: ["images/contact.jpg"]
   },
   welcome3: {
@@ -162,24 +162,35 @@ https://www.mql5.com/en/signals/1476424",
   },  
   activity1: {
     title: "เมษา พาสนุก",
-    text: "📢📢 “ โปรสั้นๆรับหน้าร้อน!!! ”  รับโบนัสเพิ่มมากถึง 100$ (หนึ่งร้อยเหรียญ) !!!! 😲😲 เพียงแค่ทุกท่าน ฝากเงินเข้ามา 444$ ระยะเวลาแค่ 1 อาทิตย์เท่านั้น !!!\n\
-    ก็รับไปเลยจุกๆ “100$ ” ในรูปแบบเครดิตได้ ง่ายๆ สั้นๆ สำหรับช่วงหน้าร้อนแบบนี้  \n\
-  Promotion ดีดีแบบนี้ไม่มีที่ไหนแน่นอน อย่าปล่อยให้โอกาสหลุดลอยไป  \n\
-  Maxtra Rich โบรกเกอร์ “ มืออาชีพ ” 🥰💖\n\
-    พร้อมดูแล และ ให้คำแนะนำ ตลอด 24 ชม  “ ใครๆก็เทรดได้ มาร่วมเป็นส่วนหนึ่งกับเรา ”\n\
-     เริ่มอาชีพนักลงทุน เปิดประสบการณ์ใหม่แห่งการลงทุนที่นี่ Website https://maxtrarich.com/\n\
-  📫Inbox / comment สอบถามมาได้เลย!!!\n\
-  📲 ID Line : @maxtrarich(มี@ด้วยนะครับ) \n\
-  🧑💻 Website: https://maxtrarich.com/  \n\
-  #Maxtrarich #forex #XAUUSD #Forex #Trading #Gold #GoldAnalysis #Dailyupdate #TechnicalAnalysis #Daytrade #Maxtrarich #Tradeforex #FxTrading #Gold #Investment",
+    text: "เทรดครบ 44 Lots \n\
+    แจกของรางวัลมูลค่า 2000-3000 บาท\n\
+    เทรดครบ 88 Lots \n\
+    แจกของรางวัลมูลค่า 5000-7000 บาท\n\
+    เทรดครบ 144 Lots \n\
+    แจกของรางวัลมูลค่า 10000-12000 บาท \n\
+    เทรดครบ 244 Lots \n\
+    แจกของรางวัลมูลค่า  30000-40000 บาท\n\
+    เงื่อนไขเข้าร่วมกิจกรรม : \n\
+         - ฝากเงิน 400 USD เพื่อเข้าร่วมแคมเปญ\n\
+         - เฉพาะบัญชี Standard เท่านั้น\n\
+         - ไม่สามารถใช้ร่วมกับบัญชี Promotion อื่นได้\n\
+         -  ระยะเวลาเข้าร่วมโปโมชั่น ตั้งแต่วันที่1 เมษายน ถึง  30 มิถุนายน 2565 \n\
+    *** ไม่สามารถทำการเทรด Hedging/Square ",
     image: ["images/activity1-1.jpeg", "images/activity1-2.jpeg", "images/activity1-3.jpeg", "images/activity1-4.jpeg", "images/activity1-5.jpeg"]
   },
   other1: {
+    title: "ชีทกลาง",
+    text: "@All \n\
+    https://docs.google.com/spreadsheets/d/1L0FBp_fK1NxEaOOIBH3T51k1q7I9dOX3dwVI0yAJVG0/edit#gid=507449747  \n\
+    ชีทนี้จะเป็นชีทกลางนะคะ ส่วนที่จะให้แอดมินช่วยลงรายละเอียดลูกค้าที่ต้องการให้เซลตามต่อ จะอยู่ แท็บแรก ชื่อ Leads ช่องที่เป็นพื้นหลังสีเหลืองค่ะ",
+    image: ["images/contact.jpg"]
+  },
+  other2: {
     title: "Hedging",
     text: "Hedging คือการที่ ในช่วงเวลาหนึ่งมีทั้งออเดอร์ Buy และ ออเดอร์ Sell ในสินค้าเดียวกันค่ะ",
     image: ["images/contact.jpg"]
   },
-  other2: {
+  other3: {
     title: "Spread",
     text: "",
     image: ["images/spread.jpg"]
@@ -204,13 +215,19 @@ function menuToggle(id) {
 } 
 function showContent(select) {
   if(data[select]===undefined){
+    document.getElementById("textarea").value="ไม่มีข้อมูล";    
     document.getElementById("text").innerText="ไม่มีข้อมูล";
-    document.getElementById("image").src=data.contact.image;
-    document.getElementById("textarea").value=document.getElementById("text").innerText;
+    const parent = document.getElementById("image")
+    while (parent.firstChild) {
+      parent.firstChild.remove()
+    }
+    var img = document.createElement("img");
+    img.src = "images/contact.jpg";
+    var src = document.getElementById("image");
+    src.appendChild(img);
   }else{
-    document.getElementById("text").innerText=data[select].text;
-    document.getElementById("image").src=data[select].image;
-    document.getElementById("textarea").value=document.getElementById("text").innerText;
+    document.getElementById("text").innerHTML=urlify(data[select].text);
+    document.getElementById("textarea").value=data[select].text;
     const parent = document.getElementById("image")
     while (parent.firstChild) {
         parent.firstChild.remove()
@@ -224,7 +241,6 @@ function showContent(select) {
   }
 }
 function copyText() {
-  document.getElementById("textarea").value=document.getElementById("text").innerText;
   var copyText = document.getElementById("textarea");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
@@ -248,3 +264,13 @@ function copyImage() {
 function delay(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
+function urlify(text) {
+  var urlRegex = /(https?:\/\/[^\s]+)/g;
+  return text.replace(urlRegex, function(url) {
+    return '<a href="' + url + '">' + url + '</a>';
+  })
+  // or alternatively
+  // return text.replace(urlRegex, '<a href="$1">$1</a>')
+}
+
+

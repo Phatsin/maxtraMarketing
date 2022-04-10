@@ -61,8 +61,9 @@
     <div class="sub-menu" id="sub-5">
       <select id="sub-5-option" onchange="showContent(this.value)">
         <option value="welcome1">--เลือก--</option>
-        <option value="other1">Hedging</option>
-        <option value="other2">Spread</option>
+        <option value="other1">ชีทกลาง</option>
+        <option value="other2">Hedging</option>
+        <option value="other3">Spread</option>
         <option value="test"></option>
         <option value="test"></option>
       </select>
@@ -74,12 +75,15 @@
     <span id="copyed"></span>
   </div>-->
   <div class = "content">
-    <textarea id="textarea" rows="4" cols="50">ช่องทาง facebook https://www.facebook.com/maxtrarich ช่องทาง LINE https://lin.ee/3XCC1nT</textarea>
-    <div id="text">ช่องทาง facebook https://www.facebook.com/maxtrarich ช่องทาง LINE https://lin.ee/3XCC1nT</div>
-    <div id="image">
-      <img src="images/contact.jpg">
-    </div>
+    <textarea id="textarea" rows="4" cols="50"></textarea>
+    <div id="text"></div>
+    <div id="image"></div>
   </div>
-  <script src="scripts.js?v=1.5"></script>
+  <script src="scripts.js?v=1.6"></script>
+  <script>
+    (function() {
+      showContent("welcome1");
+    })();
+    </script>
 </body>
 </html>
