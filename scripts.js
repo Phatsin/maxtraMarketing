@@ -42,7 +42,7 @@ var data= {
   - ฝากขั้นต่ำ 5000 USD \n\
   - เลเวอเรจสูงสุดที่ 1:1000\n\
   - ออกออเดอร์ต่ำสุดที่ 0.01 Lot Size",
-    image: ["images/contact.jpg"]
+    image: ["images/welcome6.jpg"]
   },
   promotion1: {
     title: "โปรโมชั่นที่มี",
@@ -205,9 +205,9 @@ https://docs.google.com/spreadsheets/d/1L0FBp_fK1NxEaOOIBH3T51k1q7I9dOX3dwVI0yAJ
     image: ["images/contact.jpg"]
   },
   other3: {
-    title: "Spread",
+    title: "ภาพ",
     text: "",
-    image: ["images/spread.jpg"]
+    image: ["images/o_spread.jpg", "images/o_server.jpg", "images/o_product.jpg", "images/o_lots.jpg", "images/o_credit.jpg"]
   },
 }
 function menuToggle(id) {
