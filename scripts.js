@@ -161,7 +161,7 @@ https://www.mql5.com/en/signals/1476424",
     image: ["images/contact.jpg"]
   },  
   activity1: {
-    title: "เมษา มหาสนุก",
+    title: "เมษา พาสนุก",
     text: "📢📢 “ โปรสั้นๆรับหน้าร้อน!!! ”  รับโบนัสเพิ่มมากถึง 100$ (หนึ่งร้อยเหรียญ) !!!! 😲😲 เพียงแค่ทุกท่าน ฝากเงินเข้ามา 444$ ระยะเวลาแค่ 1 อาทิตย์เท่านั้น !!!\n\
     ก็รับไปเลยจุกๆ “100$ ” ในรูปแบบเครดิตได้ ง่ายๆ สั้นๆ สำหรับช่วงหน้าร้อนแบบนี้  \n\
   Promotion ดีดีแบบนี้ไม่มีที่ไหนแน่นอน อย่าปล่อยให้โอกาสหลุดลอยไป  \n\
@@ -211,25 +211,16 @@ function showContent(select) {
     document.getElementById("text").innerText=data[select].text;
     document.getElementById("image").src=data[select].image;
     document.getElementById("textarea").value=document.getElementById("text").innerText;
-
-  
-  
     const parent = document.getElementById("image")
     while (parent.firstChild) {
         parent.firstChild.remove()
     }
-  
     for (let i=0; i<data[select].image.length; i++) {
       var img = document.createElement("img");
       img.src = data[select].image[i];
       var src = document.getElementById("image");
       src.appendChild(img);
-      
-    }
-
-
-
-
+    } 
   }
 }
 function copyText() {
@@ -239,7 +230,7 @@ function copyText() {
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
   document.getElementById("copyButton").innerText="คัดลอกข้อความแล้ว";
-  sleep(1500).then(() => {
+  delay(1500).then(() => {
     document.getElementById("copyButton").innerText="คัดลอกข้อความ";
   });
 }
@@ -254,6 +245,6 @@ function copyImage() {
       console.error(e);
   }
 }
-function sleep (time) {
+function delay(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
