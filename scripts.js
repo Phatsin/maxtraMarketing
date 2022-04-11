@@ -191,7 +191,7 @@ https://www.mql5.com/en/signals/1476424",
   - ฝากเงิน 400 USD เพื่อเข้าร่วมแคมเปญ\n\
   - เฉพาะบัญชี Standard เท่านั้น\n\
   - ไม่สามารถใช้ร่วมกับบัญชี Promotion อื่นได้\n\
-  -  ระยะเวลาเข้าร่วมโปโมชั่น ตั้งแต่วันที่1 เมษายน ถึง  30 มิถุนายน 2565 \n\
+  -  ระยะเวลาเข้าร่วมโปโมชั่น ตั้งแต่วันที่1 เมษายน ถึง  15 มิถุนายน 2565 \n\
 *** ไม่สามารถทำการเทรด Hedging/Square ",
     image: ["images/activity1-1.jpeg", "images/activity1-2.jpeg", "images/activity1-3.jpeg", "images/activity1-4.jpeg", "images/activity1-5.jpeg"]
   },
