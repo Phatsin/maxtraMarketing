@@ -150,7 +150,7 @@ Win rate 65%\n\
 https://www.myfxbook.com/members/phatsin/phatsin-maxtrarich-goldv1/9434109 , \n\
 https://www.mql5.com/en/signals/1198995 ,\n\
 https://www.mql5.com/en/signals/1476424",
-    image: ["images/service2.jpg"]
+    image: ["images/service2.jpg", "images/robot.jpg", "images/robot2.jpg"]
   },
   service4: {
     title: "ib",
