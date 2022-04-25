@@ -131,7 +131,16 @@ Linkสมัคร : https://maxtrarich.com/",
   เงื่อนไขการฝากเงินขั้นต่ำเพื่อเข้าห้อง: 100$",
     image: ["images/contact.jpg"]
   },
-  service3: {
+	service3: {
+    title: "whatisEA"",
+    text: "Expert Advisors (EA) หรือที่เรียกว่า Bot คือโปรแกรมช่วยการเทรดอัตโนมัติ \n\
+    ที่เราสามารถติดตั้งลงไปบน MT4 เพื่อทำการเทรดแทนเราด้วยการใช้เงื่อนไขที่กำหนด \n\
+    เหมาะสำหรับคนต้องไปทำงานประจำ ไม่มีเวลานั่งเฝ้าหน้าจอ หรือแม้แต่ไปเที่ยวพักผ่อนก็ใช้ EA ช่วยเทรดแทนให้ได้ \n\
+    โดยทางเรามีบริการ Virtual Private Server (VPS) ซึ่งเป็นเครื่องคอมพิวเตอร์สำหรับรันโปรแกรม EA \n\
+    โดยไม่ต้องใช้คอมพิวเตอร์ของลูกค้า ซึ่งทั้งหมดไม่มีค่าใช้จ่าย",
+    image: ["images/contact.jpg"]
+  },   
+	service4: {
     title: "ea",
     text: "บริการเทรดอัตโนมัติ ฝากเงินขั้นต่ำ $300\n\
     กลยุทธ์ และการทำงานของ EA The Gold Pattern\n\
@@ -152,7 +161,7 @@ https://www.mql5.com/en/signals/1198995 ,\n\
 https://www.mql5.com/en/signals/1476424",
     image: ["images/service2.jpg", "images/robot.jpg", "images/robot2.jpg", "images/robot3.jpg"]
   },
-  service4: {
+	service5: {
     title: "ib",
     text: "การสนับสนุนการเป็น Partner จากเรา\n\
 - ค่าคอมสูงสุด 10$/Lot\n\
@@ -164,7 +173,7 @@ https://www.mql5.com/en/signals/1476424",
 - Support Partner Team 24/7 \n\
 - Course เตรียมตัวสำหรับการเป็น Partner ฟรี!",
     image: ["images/contact.jpg"]
-  },  
+  },
   activity1: {
     title: "เมษา พาสนุก",
     text: "เมษา พาสนุก\n\
