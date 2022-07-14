@@ -210,6 +210,11 @@ https://docs.google.com/spreadsheets/d/1L0FBp_fK1NxEaOOIBH3T51k1q7I9dOX3dwVI0yAJ
     text: "",
     image: ["images/o_spread.jpg", "images/o_server.jpg", "images/o_product.jpg", "images/o_lots.jpg", "images/o_credit.jpg"]
   },
+  other4: {
+    title: "เบอร์เซล",
+    text: "+66 (0)943474545 เบอร์ คุณแปป",
+    image: ["images/contact.jpg"]
+  },
 }
 function menuToggle(id) {
   var x = document.getElementsByClassName("sub-menu");
